@@ -1,4 +1,4 @@
 output/
-plugins/
-themes/
+pelican-plugins/
+pelican-themes/
 *.pid
