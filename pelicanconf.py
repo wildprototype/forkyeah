@@ -7,16 +7,19 @@ SITENAME = u'Fork Yeah'
 SITEURL = ''
 
 PATH = 'content'
+ARTICLE_URL = '{slug}'
 
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'
+DEFAULT_DATE = 'fs'
+
 THEME = 'pelican-themes/pelican-bootstrap3/'
 #JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['assets', 'sitemap', 'gravatar','i18n_subsites']
+PLUGINS = ['assets', 'sitemap', 'gravatar','i18n_subsites', 'tag_cloud']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -26,14 +29,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
+
+DISPLAY_TAGS_ON_SIDEBAR = True
 
 DEFAULT_PAGINATION = 10
 
