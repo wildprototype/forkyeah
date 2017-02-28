@@ -5,14 +5,13 @@ Tags: oats
 Summary: Not just for hippies.
 
 ##Ingredients:
-1/2 cup maple syrup                              
-4 teaspoons vanilla extract                                      
-1/2 teaspoon salt                                       
-½ cup coconut oil                                       
-5 cups old-fashioned rolled oats                              
-2 cups raw almonds                                      
-2 cups raisins            
-Instructions
++ 1/2 cup maple syrup                              
++ 4 teaspoons vanilla extract                                      
++ 1/2 teaspoon salt                                       
++ ½ cup coconut oil                                       
++ 5 cups old-fashioned rolled oats                              
++ 2 cups raw almonds                                      
++ 2 cups raisins            
 
 ##Procedure
 1. If it’s not already liquid, melt the coconut oil in a small pan.
@@ -26,4 +25,6 @@ Instructions
 9. Break cooled granola into pieces of desired size.
 10. Stir in dried fruit.
 
-Granola can be stored in airtight container for up to 2 weeks.
+Store in an airtight container.
+Eat within two weeks. 
+Fork yeah!

@@ -7,6 +7,11 @@ SITENAME = u'Fork Yeah'
 SITEURL = ''
 
 PATH = 'content'
+
+CUSTOM_CSS = 'static/custom.css'
+
+STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico', 'static/custom.css']
+
 ARTICLE_URL = '{slug}'
 
 TIMEZONE = 'America/New_York'
@@ -15,7 +20,8 @@ DEFAULT_LANG = u'en'
 DEFAULT_DATE = 'fs'
 
 THEME = 'pelican-themes/pelican-bootstrap3/'
-#JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+BOOTSTRAP_THEME = 'readable'
+
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['pelican-plugins']
@@ -28,6 +34,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+HIDE_SIDEBAR = True
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
 #         ('Python.org', 'http://python.org/'),
