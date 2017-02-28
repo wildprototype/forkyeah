@@ -13,6 +13,7 @@ CUSTOM_CSS = 'static/custom.css'
 STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico', 'static/custom.css']
 
 ARTICLE_URL = '{slug}'
+ARTICLE_SAVE_AS = '{slug}/index.html'
 
 TIMEZONE = 'America/New_York'
 
