@@ -2,7 +2,9 @@ Title: Ice Cubes
 Category: Recipes
 Tags: water
 Slug: ice-cubes
-Summary: The 'Hello World' of recipes. 
+Summary: The 'Hello World' of recipes.
+
+![Alt Text](/images/ice-cubes.png "Ice Cubes")
 
 Total time: 	4 hrs.
 
@@ -20,4 +22,3 @@ Skill level: 	Beginner
 ###Procedure
 1. Fill the ice cube tray with water
 2. Place tray in freezer
-

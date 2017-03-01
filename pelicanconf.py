@@ -3,17 +3,25 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Jared Nielsen'
-SITENAME = u'Fork Yeah'
-SITEURL = ''
+SITENAME = u'Fork Yeah!'
+#SITEURL = 'http://forkyeah.io'
+GITHUB_URL = 'https://github.com/wildprototype/forkyeah'
+GOOGLE_ANALYTICS = ''
+TWITTER_USERNAME = 'jarednielsen'
+
 
 PATH = 'content'
-
-CUSTOM_CSS = 'static/custom.css'
-
 STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico', 'static/custom.css']
+CUSTOM_CSS = 'static/custom.css'
 
 ARTICLE_URL = '{slug}'
 ARTICLE_SAVE_AS = '{slug}/index.html'
+INDEX_SAVE_AS = 'recipes.html'
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = [
+    ('Recipes', '/recipes.html')
+]
 
 TIMEZONE = 'America/New_York'
 
@@ -22,7 +30,6 @@ DEFAULT_DATE = 'fs'
 
 THEME = 'pelican-themes/pelican-bootstrap3/'
 BOOTSTRAP_THEME = 'readable'
-
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['pelican-plugins']
@@ -43,6 +50,7 @@ HIDE_SIDEBAR = True
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
+#SOCIAL_WIDGET_NAME = ''
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
