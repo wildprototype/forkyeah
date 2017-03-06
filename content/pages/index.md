@@ -15,8 +15,9 @@ save_as: index.html
 <form action="//jarednielsen.us14.list-manage.com/subscribe/post?u=7bb2004f13affd3cd65365d9e&amp;id=d1b93f05d3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<label for="mce-EMAIL">Fork your Inbox. It's good for you.</label>
-	<p>Feed your head with weekly recipes and the science behind them.
-	<br />Gluten-free, sugar-free, soy-free, vegan. Fork Yeah!</p>
+	<p>
+	Feed your head with gluten-free, sugar-free, soy-free, vegan recipes delivered weekly. 
+	</p>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7bb2004f13affd3cd65365d9e_d1b93f05d3" tabindex="-1" value=""></div>

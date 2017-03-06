@@ -22,6 +22,7 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [
     ('Recipes', '/recipes.html')
 ]
+USE_FOLDER_AS_CATEGORY = True
 
 TIMEZONE = 'America/New_York'
 
